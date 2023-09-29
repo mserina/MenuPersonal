@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MenuPersonal.Servicios
+namespace menuPersonal.Servicios
 {
     /// <summary>
     /// La interfaz donde se hara referencia a toda las acciones que se pueden hacer en el menu
@@ -24,6 +24,6 @@ namespace MenuPersonal.Servicios
         /// </summary>
         
         public int mostrarmostrarMenuYOpciones();
-        
+
     }
 }

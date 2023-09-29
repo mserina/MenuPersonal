@@ -1,6 +1,6 @@
-﻿using MenuPersonal.Servicios;
+﻿using menuPersonal.Servicios;
 
-namespace MenuPersonal
+namespace menuPersonal
 {
     /// <summary>
     /// Clase Principal de la aplicacion
@@ -30,7 +30,6 @@ namespace MenuPersonal
             while (!cerrarMenu)
             {
                 opcionSeleccionada = objetoInterfaz.mostrarmostrarMenuYOpciones();
-                Console.WriteLine(opcionSeleccionada);
 
                 switch (opcionSeleccionada)
                 {
